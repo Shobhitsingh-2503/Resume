@@ -1,0 +1,137 @@
+.nav{
+    margin-bottom: 20px;
+    text-align: right;
+    margin-top: 0;
+}
+body{
+    background-color: black;
+}
+.Home{
+    display:inline-block;
+    padding: 10px;
+    border: white solid;
+    border-radius:25px;
+    margin-left:10px;
+    color: white;
+}
+.ABOUT{
+    display: inline-block;
+    padding: 10px;
+    border: white solid;
+    background: white;
+    border-radius:25px;
+    margin-left:10px;
+    color: black;
+
+}
+.me{
+    display:inline-block;
+    padding: 10px;
+    border: white solid;
+    border-radius:25px;
+    margin-left:10px;
+    color: white;
+}
+.me:hover{
+    cursor: pointer;
+    color: black;
+    background-color: white;
+    animation: pulse 1500ms infinite;
+}
+.pics{
+    display: inline-block;
+    padding: 10px;
+    border: white solid;
+    border-radius:25px;
+    margin-left:10px;
+    color: white;
+}
+ 
+.proj{
+    display: inline-block;
+    padding: 10px;
+    border: white solid;
+    
+    border-radius:25px;
+    margin-left:10px;
+    color: white;
+}
+.Home:hover{
+    cursor: pointer;
+    color: black;
+    background-color: white;
+    animation: pulse 1500ms infinite;
+}
+.ABOUT:hover{
+    cursor: pointer;
+    color: black;
+    background-color: white;
+    animation: pulse 1500ms infinite;
+}
+@keyframes pulse {
+    0%{
+        box-shadow: white 0 0 0 0 ;
+    }
+    75%{
+        box-shadow: #0072ff00 00 0 100px;
+    }
+}
+.proj:hover{
+    cursor: pointer;
+    color: black;
+    background-color: white;
+    animation: pulse 1500ms infinite;
+}
+.pics:hover{
+    cursor: pointer;
+    color: black;
+    background-color: white;
+    animation: pulse 1500ms infinite;
+}
+.social {
+    display: flex;
+    margin: 30px;
+    justify-content: center;
+    margin-top: 200px;     
+}
+.social a {
+    display: block;
+    background: white;
+    padding: 20px;
+    transform: perspective(1000px) rotate(-25deg) skew(25deg) translate(0, 0);
+    box-shadow: -20px 20px 10px rgba(0, 0, 0, 0.5);
+    transition: all 0.5s ease-in-out;
+    margin: 40px;
+     
+}
+.social a::before {
+    display: block;
+    content: "";
+    position: absolute;
+    width: 20px;
+    height: 100%;
+    left: -20px;
+    top: 10px;
+    background: white;
+    transform: rotate(0deg) skewY(-45deg);
+}
+.social a::after {
+    display: block;
+    content: "";
+    position: absolute;
+    bottom: -20px;
+    left: -10px;
+    height: 20px;
+    width: 100%;
+    transform: rotate(0deg) skewX(-45deg);
+    background: white;
+    transform: rotate(45deg) scewY(-45deg);
+}
+.social a:hover {
+    transform: perspective(1000px) rotate(-25deg) skew(25deg) translate(20px, -20px);
+    box-shadow: -50px 50px 30px white;
+}
+.social a i {
+    color: rgba(256, 256, 256, 1);
+    font-size: 30pt;
+}

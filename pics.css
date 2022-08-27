@@ -1,0 +1,101 @@
+.nav{
+    margin-bottom: 20px;
+    text-align: right;
+    margin-top: 0;
+}
+body{
+    background-color: black;
+}
+.Home{
+    display:inline-block;
+    padding: 10px;
+    border: white solid;
+    border-radius:25px;
+    margin-left:10px;
+    color: white;
+}
+.ABOUT{
+    display: inline-block;
+    padding: 10px;
+    border: white solid;
+    
+    border-radius:25px;
+    margin-left:10px;
+    color: white;
+}
+.pics{
+    display: inline-block;
+    padding: 10px;
+    border: white solid;
+    border-radius:25px;
+    margin-left:10px;
+    color: black;
+    background: white;
+}
+ 
+.proj{
+    display: inline-block;
+    padding: 10px;
+    border: white solid;
+    
+    border-radius:25px;
+    margin-left:10px;
+    color: white;
+}
+.Home:hover{
+    cursor: pointer;
+    color: black;
+    background-color: white;
+    animation: pulse 1500ms infinite;
+}
+.ABOUT:hover{
+    cursor: pointer;
+    color: black;
+    background-color: white;
+    animation: pulse 1500ms infinite;
+}
+@keyframes pulse {
+    0%{
+        box-shadow: white 0 0 0 0 ;
+    }
+    75%{
+        box-shadow: #0072ff00 00 0 100px;
+    }
+}
+.proj:hover{
+    cursor: pointer;
+    color: black;
+    background-color: white;
+    animation: pulse 1500ms infinite;
+}
+.pics:hover{
+    cursor: pointer;
+    color: black;
+    background-color: white;
+    animation: pulse 1500ms infinite;
+}
+.images{
+    justify-content: center;
+}
+.som{
+    border: white solid 2px;
+    margin-left: 150px;
+    margin-right: 0;
+    margin-top:10px;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+.me{
+    display:inline-block;
+    padding: 10px;
+    border: white solid;
+    border-radius:25px;
+    margin-left:10px;
+    color: white;
+}
+.me:hover{
+    cursor: pointer;
+    color: black;
+    background-color: white;
+    animation: pulse 1500ms infinite;
+}

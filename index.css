@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
+.nav{
+    margin-bottom: 10px;
+    text-align: right;
+    margin-top: 0;
+}
+body{
+    background-color: black;
+}
+.Home{
+    display:inline-block;
+    padding: 10px;
+    border: white solid;
+    border-radius:25px;
+    margin-left:10px;
+    color: white;
+}
+.me{
+    display:inline-block;
+    padding: 10px;
+    border: white solid;
+    border-radius:25px;
+    margin-left:10px;
+    color: white;
+}
+.me:hover{
+    cursor: pointer;
+    color: black;
+    background-color: white;
+    animation: pulse 1500ms infinite;
+}
+.ABOUT{
+    display: inline-block;
+    padding: 10px;
+    border: white solid;
+    
+    border-radius:25px;
+    margin-left:10px;
+    color: white;
+}
+.pics{
+    display: inline-block;
+    padding: 10px;
+    border: white solid;
+    border-radius:25px;
+    margin-left:10px;
+    color: white;
+}
+ 
+.proj{
+    display: inline-block;
+    padding: 10px;
+    border: white solid;
+    
+    border-radius:25px;
+    margin-left:10px;
+    color: white;
+}
+.Home:hover{
+    cursor: pointer;
+    color: black;
+    background-color: white;
+    animation: pulse 1500ms infinite;
+}
+.container{
+    float:left;
+    color: white;
+    font-size: x-large;
+    padding-left: 30px;
+    text-align: center;
+    width: 500px;
+    height: 500px;
+}
+span{
+    color: yellow;
+}
+.ABOUT:hover{
+    cursor: pointer;
+    color: black;
+    background-color: white;
+    animation: pulse 1500ms infinite;
+}
+@keyframes pulse {
+    0%{
+        box-shadow: white 0 0 0 0 ;
+    }
+    75%{
+        box-shadow: #0072ff00 00 0 100px;
+    }
+}
+.proj:hover{
+    cursor: pointer;
+    color: black;
+    background-color: white;
+    animation: pulse 1500ms infinite;
+}
+.pics:hover{
+    cursor: pointer;
+    color: black;
+    background-color: white;
+    animation: pulse 1500ms infinite;
+}
+.image{
+    border: 1px white solid;
+    width: 200px;
+    margin-left: 650px;
+    height: 250px;
+    border-radius: 35px;
+    background: linear-gradient(to top, #43cea2, #185a9d);
+}
+.empty{
+    border: white solid 1px;
+    width: 200px;
+    margin-left: 800px;
+    margin-top: 50px;
+    height: 196px;
+    border-radius: 35px;
+    background: linear-gradient(to top, #9d50bb, #6e48aa);
+}
+.intro{
+    color: white;
+    text-align: left;
+    font-family: 'Amatic SC';
+    font-size: larger;
+}
