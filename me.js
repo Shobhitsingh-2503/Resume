@@ -22,5 +22,5 @@ hello.addEventListener('click',function(){
 })
 var cv = document.querySelector('.resume')
 cv.addEventListener('click',function(){
-    location.href = 'C:/Users/Shobhit Singh/OneDrive/Desktop/Activities/resume/RESUME_SHOBHIT_SINGH.pdf'
+    location.href = 'https://drive.google.com/file/d/1wxOrsKSRaBoA46Ilb4eX8P-cXuQ-AqFL/view?usp=sharing'
 })
