@@ -22,5 +22,5 @@ hello.addEventListener('click',function(){
 })
 var cv = document.querySelector('.resume')
 cv.addEventListener('click',function(){
-    location.href = 'https://drive.google.com/file/d/1wxOrsKSRaBoA46Ilb4eX8P-cXuQ-AqFL/view?usp=sharing'
+    location.href = 'https://docs.google.com/document/d/1RbS7y5sSKfoOq1nuIetOyVDny-mqEn38/edit?usp=sharing&ouid=112304669120330647515&rtpof=true&sd=true'
 })
