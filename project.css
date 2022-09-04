@@ -96,6 +96,17 @@ body{
     font-size: large;
     padding: 10px;
 }
+.p5{
+    color: white;
+    border: white solid ;
+    border-radius: 20px;
+     margin-left: 600px;
+    height: 200px;
+    width: 400px;
+    margin-bottom: 20px; 
+    font-size: large;
+    padding: 10px;
+}
 .p3{
     color: white;
     border: white solid ;
@@ -134,12 +145,16 @@ body{
 .p2:hover{
     cursor: pointer;
 }
+.p5:hover{
+    cursor: pointer;
+}
 .p3:hover{
     cursor: pointer;
 }
 .p4:hover{
     cursor: pointer;
 }
+
 .photo{
     margin: 0;
     text-align: center;
