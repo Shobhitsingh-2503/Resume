@@ -34,3 +34,7 @@ var p3 = document.querySelector('.p3')
 p3.addEventListener('click',function(){
     location.href = "https://github.com/IITianShobhitsingh/TAM";
 })
+var p5 = document.querySelector('.p5')
+p5.addEventListener('click',function(){
+    location.href = "https://github.com/IITianShobhitsingh/Rent_model";
+})
