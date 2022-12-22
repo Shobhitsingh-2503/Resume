@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=DynaPuff&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani&display=swap');
 .nav{
     margin-bottom: 10px;
     text-align: right;
@@ -121,6 +122,6 @@ span{
 .intro{
     color: white;
     text-align: left;
-    font-family: 'Amatic SC';
+    font-family: 'Rajdhani';
     font-size: larger;
 }
